@@ -16,6 +16,7 @@ Seasonal Trends: Bookings peak between May and June, but cancellations also see 
 Room Allocation: There is a high correlation between "Desired" room types and successful stays, whereas "Undesired" room assignments show a much lower booking volume.
 
 🛠️ Technical Implementation
+
 Data Cleaning: Handled missing values and standardized guest categories using Excel functions.
 
 Pivot Table Modeling: Used Pivot Tables to aggregate data across multiple dimensions (Time, Hotel Type, Guest Type).
@@ -29,6 +30,7 @@ Utilized Combo Charts and Pie Charts to visualize distributions and trends.
 UI/UX Design: Applied a dark-themed, high-contrast interface for a professional reporting feel.
 
 💡 Business Recommendations
+
 Overbooking Strategy: City Hotels should implement more aggressive overbooking or non-refundable deposit policies for peak months (May-June) due to high volatility.
 
 Targeted Loyalty: Develop specific retention offers for "Couple" travelers, as they are the primary revenue drivers but also the most likely to cancel.
