@@ -4,6 +4,7 @@ Project Overview
 This project provides a comprehensive analysis of hotel booking patterns and cancellation behaviors across different guest segments and hotel types. Using Excel, I transformed raw booking data into an interactive dashboard to identify key drivers of cancellations and provide actionable insights for revenue management.
 
 📊 Key Insights from Dashboard
+
 Total Volume: Analyzed 119,390 total bookings with a significant 44,224 cancellations, highlighting a need for optimized retention strategies.
 
 Segment Volatility: Couples represent the highest volume of both bookings and cancellations compared to families and single guests.
