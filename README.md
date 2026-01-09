@@ -1,38 +1,49 @@
-🏨 Hotel Booking Cancellation Analysis
+📊 Key Dashboard Insights
 
-Project Overview
-This project provides a comprehensive analysis of hotel booking patterns and cancellation behaviors across different guest segments and hotel types. Using Excel, I transformed raw booking data into an interactive dashboard to identify key drivers of cancellations and provide actionable insights for revenue management.
+High-Volume Volatility: Out of 119,390 total bookings, a significant 37% (44,224) resulted in cancellations.
 
-📊 Key Insights from Dashboard
+Segment Analysis: * Couples show the highest volume of both bookings and cancellations across all categories.
 
-Total Volume: Analyzed 119,390 total bookings with a significant 44,224 cancellations, highlighting a need for optimized retention strategies.
+Single and Family segments maintain lower but more stable booking-to-stay ratios.
 
-Segment Volatility: Couples represent the highest volume of both bookings and cancellations compared to families and single guests.
+Hotel Comparison: * City Hotels account for the vast majority of cancellations (11,691).
 
-Hotel Comparison: City Hotels experience a significantly higher volume of cancellations (11,691) compared to Resort Hotels (4,054), indicating higher market volatility in urban centers.
+Resort Hotels show much higher stability with only 4,054 cancellations.
 
-Seasonal Trends: Bookings peak between May and June, but cancellations also see a proportional rise during these months.
+Seasonal Trends: * A steady climb in bookings is visible from January through May, peaking in early summer.
 
-Room Allocation: There is a high correlation between "Desired" room types and successful stays, whereas "Undesired" room assignments show a much lower booking volume.
+Cancellations follow a similar seasonal trajectory, indicating a need for stricter deposit policies during peak months.
+
+Room Type Impact: * Bookings for "Desired" room types have a much higher success rate.
+
+Allocating "Undesired" rooms significantly increases the probability of a cancellation.
 
 🛠️ Technical Implementation
 
-Data Cleaning: Handled missing values and standardized guest categories using Excel functions.
+1. Data Processing
 
-Pivot Table Modeling: Used Pivot Tables to aggregate data across multiple dimensions (Time, Hotel Type, Guest Type).
+Data Cleaning: Standardized inconsistent labels and handled missing values within the guest and room type columns.
 
-Dynamic Dashboarding: * Implemented Slicers (Arrival Date) for interactive filtering.
+Feature Engineering: Created calculated columns to categorize guest types (Couple, Family, Single) for deeper segmentation.
 
-Designed a custom KPI Header for immediate visibility of total metrics.
+2. Data Modeling
 
-Utilized Combo Charts and Pie Charts to visualize distributions and trends.
+Pivot Tables: Leveraged multi-dimensional Pivot Tables to aggregate complex metrics across time, hotel type, and guest segments.
 
-UI/UX Design: Applied a dark-themed, high-contrast interface for a professional reporting feel.
+Dynamic Logic: Built a responsive data model that updates all visuals based on a central timeline.
 
-💡 Business Recommendations
+3. Visualization & UI
 
-Overbooking Strategy: City Hotels should implement more aggressive overbooking or non-refundable deposit policies for peak months (May-June) due to high volatility.
+Slicers & Interaction: Integrated Arrival Date Slicers to allow users to filter the entire dashboard by year (2015–2017).
 
-Targeted Loyalty: Develop specific retention offers for "Couple" travelers, as they are the primary revenue drivers but also the most likely to cancel.
+Advanced Charting: Utilized a mix of Combo Charts (for trends), Pie Charts (for distribution), and KPI Cards (for high-level metrics).
 
-Experience Optimization: Ensure "Desired" room types are prioritized during the booking process to minimize the risk of dissatisfaction-led cancellations.
+Custom Branding: Designed a dark-themed interface with customized icons for a high-end, professional feel.
+
+💡 Strategic Recommendations
+
+Revenue Protection: Implement non-refundable booking tiers for City Hotels during peak months (May–August) to mitigate the 37% cancellation rate.
+
+Customer Retention: Launch targeted loyalty campaigns for "Couple" travelers to convert high-volume interest into guaranteed stays.
+
+Operational Alignment: Prioritize room allocation accuracy; ensuring guests receive their "Desired" room type is a proven factor in reducing cancellations.
